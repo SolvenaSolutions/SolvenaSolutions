@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solvena Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+    body {
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #444;
+    }
+    header img {
+      max-width: 180px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 15px;
+    }
+    nav a {
+      color: #ddd;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .hero {
+      background-color: #222;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 48px;
+      color: #fff;
+    }
+    .hero p {
+      color: #aaa;
+      margin-top: 15px;
+      font-size: 18px;
+    }
+    .cta-button {
+      margin-top: 30px;
+      padding: 12px 30px;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #ccc;
+    }
+    .services, .about, .contact {
+      background-color: #111;
+      margin-top: 20px;
+    }
+    .services h2, .about h2, .contact h2 {
+      color: #fff;
+      margin-bottom: 20px;
+      font-size: 32px;
+    }
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .service {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border: 1px solid #333;
+      border-radius: 8px;
+    }
+    .service h3 {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    .service p {
+      color: #ccc;
+      font-size: 15px;
+    }
+    footer {
+      background-color: #111;
+      color: #777;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="your-logo-path.png" alt="Solvena Solutions Logo" />
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Solvena Solutions</h1>
+    <p>Premium Virtual Support Tailored to Your Business</p>
+    <button class="cta-button">Book a Free Consultation</button>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service">
+        <h3>Admin Assistance</h3>
+        <p>Streamlined support for documents, scheduling, and more.</p>
+      </div>
+      <div class="service">
+        <h3>Email & Calendar Management</h3>
+        <p>Keep your day organized with inbox control and smart scheduling.</p>
+      </div>
+      <div class="service">
+        <h3>Client Communication</h3>
+        <p>Professional communication on your behalf via email or chat.</p>
+      </div>
+      <div class="service">
+        <h3>Research & Data Entry</h3>
+        <p>Accurate data collection and insightful research tailored to you.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>At Solvena, we elevate productivity through tailored virtual assistance, bringing structure and clarity to your operations. Our mission is to deliver high-end, reliable, and smart support services that let business owners focus on what they do best.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:hello@solvenasolutions.com" style="color:#ccc">hello@solvenasolutions.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Solvena Solutions. All rights reserved.
+  </footer>
+</body>
+</html>
